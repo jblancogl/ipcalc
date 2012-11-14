@@ -29,6 +29,8 @@
 #include <errno.h>
 #include <err.h>
 
+#include "compatibility.h"
+
 extern const char	*__progname;
 static void		 usage(void);
 static int		 compar(const void *, const void *);
